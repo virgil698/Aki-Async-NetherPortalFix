@@ -1,18 +1,12 @@
-# Leaves Plugin Template
+# Aki-Async-NetherPortalFix
 
 [![许可证](https://img.shields.io/github/license/LeavesMC/leaves-plugin-template)](LICENSE)
 
-一个帮助你快速开始 Leaves 插件开发的项目模板
-
-**当前仅支持 [Gradle](https://gradle.org/)**
+基于 [NetherPortalFix](https://modrinth.com/mod/netherportalfix) 为 Luminol 环境开发的地狱门修复mixin插件
 
 ## 特性
 
-- 在构建脚本中声明插件元数据
-- 开箱即用的 [NMS](https://docs.papermc.io/paper/dev/internals/), [Mixin](https://github.com/FabricMC/Mixin)，[Mixin Extras](https://github.com/LlamaLad7/MixinExtras)，[AccessWidener](https://github.com/FabricMC/access-widener)
-- 快速启动开发服务器
-
-**此模板为全功能模板，包含了上述说到的所有功能，如果你不需要某（几）个功能，请参考：[其他分支](BRANCHES.MD)**
+- 修复地狱门行为，只要玩家使用同一个传送门返回主世界，他们最终都会回到他们来时所在的地方
 
 ## 依赖
 
@@ -49,23 +43,10 @@
 
 ## 常见问题
 
-**用此模板开发的插件可以用于哪些服务端？**
+**可以用于哪些服务端？**
 
-目前只有 [Leaves](https://github.com/LeavesMC/Leaves)
+推荐使用 [Luminol](https://github.com/LuminolMC/Luminol) ，Leaves 已有此修复配置
 
-**什么是 Mixin？**
-
-参考 [Fabric 教程：Mixin 介绍](https://wiki.fabricmc.net/zh_cn:tutorial:mixin_introduction)
-
-**什么是 Mixin Extras？**
-
-参考 [GitHub：Mixin Extras](https://github.com/LlamaLad7/MixinExtras)
-
-（本模板已配置，无需额外操作）
-
-**什么是 AccessWidener？**
-
-参考 [Fabric 教程：访问加宽器](https://wiki.fabricmc.net/zh_cn:tutorial:accesswideners)
 
 **为什么 Mixin 不起作用？**
 

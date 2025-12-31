@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "org.virgil698.netherportalfix.mixin.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "target": "@env(PREINIT)",
+  "mixins": [
+    "LivingEntityAccessor",
+    "NetherPortalBlockMixin",
+    "ServerPlayerMixin"
+  ]
+}
