@@ -21,7 +21,7 @@ val pluginJson = leavesPluginJson {
     main = "org.virgil698.netherportalfix.NetherPortalFixPlugin"
     authors.add("Virgil698")
     description = "Fixes nether portals so that they return you to the portal you came from"
-    foliaSupported = false
+    foliaSupported = true
     apiVersion = libs.versions.leavesApi.extractMCVersion()
     // TODO: if your logic can work without mixin, can use `features.optional.add("mixin")`
     features.required.add("mixin")
